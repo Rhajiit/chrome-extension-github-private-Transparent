@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Github Private Transparent",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*?tab=repositories"],
+      "js": ["index.js"]
+    }
+  ]
+}
