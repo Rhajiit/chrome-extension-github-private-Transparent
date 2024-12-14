@@ -4,7 +4,7 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["https://github.com/*?tab=repositories"],
+      "matches": ["https://github.com/*"],
       "js": ["index.js"]
     }
   ]
